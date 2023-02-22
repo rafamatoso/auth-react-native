@@ -1,11 +1,14 @@
+import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
-import {SafeAreaView, StyleSheet, Text} from 'react-native';
+import {SafeAreaView, StyleSheet, View} from 'react-native';
 
 const App: React.FC = () => {
   return (
-    <SafeAreaView style={styles.container}>
-      <Text>App</Text>
-    </SafeAreaView>
+    <NavigationContainer>
+      <SafeAreaView style={styles.container}>
+        <View></View>
+      </SafeAreaView>
+    </NavigationContainer>
   );
 };
 
