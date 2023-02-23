@@ -1,12 +1,15 @@
 {
   "env": {
     "es2021": true,
-    "node": true
+    "node": true,
+    "react-native/react-native": true
   },
   "extends": [
     "plugin:react/recommended",
     "standard-with-typescript",
     "plugin:react-hooks/recommended",
+    /* https://www.npmjs.com/package/eslint-plugin-react-native */
+    "plugin:react-native/all",
     "prettier"
   ],
   "overrides": [],
